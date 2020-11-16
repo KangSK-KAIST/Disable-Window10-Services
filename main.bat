@@ -17,10 +17,10 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 REM Choose whether disable or just prevent auto-runs
 CHOICE /C DM /N /M "Will you (D)isable or change to (M)anual mode?"
-IF ERRORLEVEL 1 SET /A MODE=0:
-IF ERRORLEVEL 2 SET /A MODE=1:
+IF ERRORLEVEL 1 SET MODE=0:
+IF ERRORLEVEL 2 SET MODE=1:
 
-FOR /F "tokens=1,2 delims=," %%i in (database.txt) do (
+FOR /F "tokens=1,2 delims=," %%i in (%~dp0database.txt) do (
 	ECHO Shutting Down %%j...
 	sc stop %%i
 	IF %MODE%==0 (
@@ -32,7 +32,6 @@ FOR /F "tokens=1,2 delims=," %%i in (database.txt) do (
 		ECHO Disabling Auto-Start: %%j...
 		sc config %%i start=demand
 	)
-	
 )
 
 
