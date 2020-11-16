@@ -34,5 +34,4 @@ FOR /F "tokens=1,2 delims=," %%i in (%~dp0database.txt) do (
 	)
 )
 
-
 REM End of program
