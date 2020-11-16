@@ -1,0 +1,3 @@
+AGMService,Adobe Genuine Moniter Service
+AGSService,Adobe Genuine Software Integrity Service
+AdobeUpdateService,Adobe Update Service
