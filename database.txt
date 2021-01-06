@@ -7,23 +7,16 @@ AnySign4PC Launcher,AnySign4PC Launcher
 AppReadiness,AppReadiness
 AdAppMgrSvc,Autodesk Desktop App Service
 mitsijm2018,Autodesk Simulation Moldflow MITSI
-
 Fax,Fax
 iphlpsvc,IPv6 Helper
 HncUpdateService_NEO2,HncUpdate Checker
-
 SignKoreaWD,SignKoreaWD
 SCardSvr,Smart Card
 ScDeviceEnum,Smart Card Device Enumeration
 SCPolicySvc,Smart Card Removal Policy
-
 Steam Client Service,Steam Client Service
-
 WalletService,WalletService
-
 WerSvc,Windows Error Reporting System
-
-
 XboxGipSvc,Xbox Accessory Management
 XblGameSave,Xbox Live Game Save
 XboxNetApiSvc,Xbox Live Networking
